@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: loan
+Version: 0.0.0
+Requires-Dist: dagster
+Requires-Dist: dagster-cloud
+Requires-Dist: duckdb
+Requires-Dist: pandas
+Requires-Dist: sqlescapy
+Requires-Dist: lxml
+Requires-Dist: html5lib
+Provides-Extra: dev
+Requires-Dist: dagster-webserver; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: localstack; extra == "dev"
+Requires-Dist: awscli; extra == "dev"
+Requires-Dist: awscli-local; extra == "dev"
